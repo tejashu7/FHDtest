@@ -1,6 +1,8 @@
 package palindrom;
 import java.io.EOFException;
 import java.util.Scanner;
+//I just add some comments to pull
+
 
 public class palindrom {
 	public boolean isPal(int a){
@@ -72,18 +74,18 @@ public class palindrom {
 	public static void main(String[] args) {
 	//String s = new String();
 		int n;
-		System.out.println("Введите количество элементов: ");
+		System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє Д™Г®Г«ДЌГ·ДєЕ„Е€ГўГ® ГЅГ«ДєД›ДєГ­Е€Г®Гў: ");
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
         int [] mas;
         mas = new int[n];
-        System.out.println("Введите числа:");
+        System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє Г·ДЌЕ„Г«Е•:");
         for(int i=0;i<n;i++){
             mas[i] = scanner.nextInt();
 
         }
         palindrom obj = new palindrom();
-        System.out.println("Полиндромы: ");
+        System.out.println("ДЋГ®Г«ДЌГ­Г¤Д‘Г®Д›Е±: ");
         for(int i=0;i<n;i++)
         { 
         	if(obj.isPal(mas[i]))
