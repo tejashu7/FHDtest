@@ -25,7 +25,7 @@ public class palindromTest {
 		
 		palindrom test = new palindrom();
 		assertTrue(test.isPal(121));
-		for(int i=0;i<10;i++)
+		for(int i=0;i<100;i++)
 		assertFalse(test.isPal(i));
 	}
 }
