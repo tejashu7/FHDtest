@@ -10,6 +10,7 @@ public class calculator {
 		return (float) (val1 / val2);
 	}
 	
+	//New Change
 	public static long fact(int val)
 	{
 		long temp = 1;
