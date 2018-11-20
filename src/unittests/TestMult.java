@@ -32,6 +32,7 @@ public class TestMult {
 	@After
 	public void execcAfter()
 	{
+		//test comment
 		a = null;
 	}
 
