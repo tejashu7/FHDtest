@@ -18,12 +18,13 @@ public class testMult {
 		System.out.println("Execute Before");
 		
 	}
+	// this is done before test
 	@Before
 	public void execBefore() {
 		a = new int [200];
 		for (int i= 0 ; i < 200; i++) a[i] = i*i;
 	}
-	
+	//this is done after test
 	@After
 	public void execAfter() {
 		 a = null;
