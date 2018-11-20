@@ -6,7 +6,7 @@ public class palindrom {
 	public boolean isPal(int a){
 		int b,c, e;
 		boolean isPolindrome = false;
-		
+		//these are the changes made by me 
 		if(a > 9999 && a < 100000)
         {           
 				b = a / 10000;
@@ -72,18 +72,18 @@ public class palindrom {
 	public static void main(String[] args) {
 	//String s = new String();
 		int n;
-		System.out.println("Введите количество элементов: ");
+		System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
         int [] mas;
         mas = new int[n];
-        System.out.println("Введите числа:");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:");
         for(int i=0;i<n;i++){
             mas[i] = scanner.nextInt();
 
         }
         palindrom obj = new palindrom();
-        System.out.println("Полиндромы: ");
+        System.out.println("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ");
         for(int i=0;i<n;i++)
         { 
         	if(obj.isPal(mas[i]))
