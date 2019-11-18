@@ -73,18 +73,18 @@ public class palindrom {
 	public static void main(String[] args) {
 	//String s = new String();
 		int n;
-		System.out.println("������� ���������� ���������: ");
+		System.out.println("Input number of input data ");
         Scanner scanner = new Scanner(System.in);
         n = scanner.nextInt();
         int [] mas;
         mas = new int[n];
-        System.out.println("������� �����:");
+        System.out.println("Input value:");
         for(int i=0;i<n;i++){
             mas[i] = scanner.nextInt();
 
         }
         palindrom obj = new palindrom();
-        System.out.println("����������: ");
+        System.out.println("Palindromes are: ");
         for(int i=0;i<n;i++)
         { 
         	if(obj.isPal(mas[i]))
