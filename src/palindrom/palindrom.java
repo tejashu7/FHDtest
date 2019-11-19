@@ -7,6 +7,8 @@ public class palindrom {
 		//adding comments
 		int b,c, e;
 		boolean isPolindrome = false;
+		
+		//The small comit message
 		//these are the changes made by me 
 		//The changes has no effect on the program 
 		if(a > 9999 && a < 100000)
