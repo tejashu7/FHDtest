@@ -7,6 +7,7 @@ public class palindrom {
 		//adding comments
 		int b,c, e;
 		boolean isPolindrome = false;
+		//krupa created branch
 		
 		//The small comit message
 		//these are the changes made by me 
