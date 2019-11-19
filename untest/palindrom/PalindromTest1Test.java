@@ -2,10 +2,12 @@ package palindrom;
 
 import static org.junit.Assert.*;
 
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
-
-public class palindromTest {
+public class PalindromTest1Test {
 
 	@BeforeClass
 	public static void beforeClass(){
@@ -24,9 +26,8 @@ public class palindromTest {
 	public void testIsPal() {
 		
 		palindrom test = new palindrom();
-		assertTrue(test.isPal(1221));
 		for(int i=0;i<10;i++)
 		assertFalse(test.isPal(i));
 	}
-	
+
 }
